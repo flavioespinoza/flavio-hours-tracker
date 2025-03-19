@@ -17,13 +17,7 @@ Estimates your hours worked over the last 40 days by pulling your commits from y
    yarn install
    ```
 
-3. **Run the Script**  
-   Execute the `get-flavio-hours.sh` script to generate and process the CSV file. By default, it processes repositories in the `~/bless` directory. You can override this by setting the `BASE_DIR` environment variable:
-   ```bash
-   BASE_DIR=<your_directory> ./get-flavio-hours.sh
-   ```
-
-4. **Update Your `.zshrc` File**  
+3. **Update Your `.zshrc` File**  
    To make the `BASE_DIR` environment variable persistent, you can add it to your `.zshrc` file:
    - Open your `.zshrc` file in VS Code:
      ```bash
@@ -38,6 +32,23 @@ Estimates your hours worked over the last 40 days by pulling your commits from y
    After updating, make sure to source the `.zshrc` file to apply the changes:
    ```bash
    source ~/.zshrc
+   ```
+
+4. **Run the Script** 
+
+
+   **Option 1**
+   
+   Run the script with yarn.
+   ```bash
+   yarn calc
+   ```
+   
+   **Option 2**
+
+   Execute the following command to generate and process the CSV file. By default, it processes repositories in the `~/bless` directory. You can override this by setting the `BASE_DIR` environment variable:
+   ```bash
+   BASE_DIR=<your_directory> yarn calc
    ```
 
 5. **View the Output**  

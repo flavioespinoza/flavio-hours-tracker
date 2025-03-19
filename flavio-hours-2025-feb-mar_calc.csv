@@ -1,0 +1,118 @@
+Date,Repo,Tasks,Hours
+"Mar 16","bless-ui","• On card: git-log-y.
+• Index on card: 889886f ## docs(`card.md`): enhance documentation for `CardSection` component.
+• Untracked files on card: 889886f ## docs(`card.md`): enhance documentation for `CardSection` component.
+• Calculating hours.
+• Csv files.",9.75
+"Mar 15","bless-ui","• ## feat(ui): Update Tailwind configuration with custom colors and styles.
+• Formatting.
+• ## refactor: Update `Card` component styling and structure.",5
+"Mar 14","bless-ui","• # Optimization and Refactoring Tasks.
+• Fix: fluid-tailwind extract error.
+• Fix: stop tracking notes.md.
+• Stop tracking todo.md.
+• Feat(homepage): Replace existing cards with new Card component.
+• Chore: reduced gap between cards.
+• Refactor HomePage with CardSection component.
+• Added docs for Card and CardSection components.
+• Docs.
+• Removed temp folder.
+• Enhance Card and CardSection components with dynamic card type support.
+• Updated docs.
+• Docs: enhance Card and CardSection documentation with detailed exports and props.
+• ## docs(`card.md`): enhance documentation for `CardSection` component.
+• Configure project for NPM package publication.
+• Formatting.
+• Fix build process and add 'use client' directive handling.
+• Add getting-started.md documentation.
+• Doc: getting-started.md update.",13
+"Mar 13","bless-ui","• Fixed side-nav toggle on desktop.
+• Fix: side-nav active state and menu items default and hover states.
+• Test: husky pre-commit.
+• Added husky pre-commit for prettier.
+• Responsive layout first phase solved.
+• Refactored toggle for side-nav.
+• Collapsible header refactored and icons added.
+• Proper icons and menu items added.
+• Fixed path name for active route.
+• Added zustand for state management.
+• Feat: integrate Zustand for sidenav state management, restructure layout, and add new pages.
+• Removed unused components.
+• Merge pull request #5 from blessnetwork/dependabot/npm and yarn/prismjs-1.30.0.
+• Merged main.",6.75
+"Mar 12","bless-ui","• Fix: Sidenav not collapsing on desktop.
+• Sidenav responsiveness.
+• Fix: working on header responsiveness.
+• Removed side-nav route.
+• ParentWrapper.",7.25
+"Mar 10","bless-ui","• Merge pull request #4 from blessnetwork/highlight.
+• Update docs.yml.
+• Create nextjs.yml.
+• Main.
+• Merge branch 'main' of https://github.com/blocklessnetwork/bless-ui into main.
+• Fixed collapse error.
+• Header in progress.",4.25
+"Mar 09","bless-ui","• Notes.
+• Merge pull request #1 from blessnetwork/dependabot/npm and yarn/marked-4.0.10.
+• Merge pull request #2 from blessnetwork/dependabot/npm and yarn/nanoid-3.3.8.
+• Merge branch 'main' into dependabot/npm and yarn/next-14.2.21.
+• Merge pull request #3 from blessnetwork/dependabot/npm and yarn/next-14.2.21.
+• Feat: update side-nav, popover, and page components for improved navigation and popovers.
+• Feat: update side-nav and page components to resize <main> when menu collapses or opens.
+• Formatting.
+• Removed yarn lock.
+• Resolved conflicts.
+• Fresh yarn lock.",2.5
+"Mar 06","bless-ui","• Added prettier-tailwind-plugin which sorts classNames logically.
+• Moved npm mods to devDependencies.
+• Created fluid button with smooth transitions between large and small screens.
+• Mobile header added.
+• Added mobile header with side-nav toggle.",1.75
+"Mar 04","bless-ui","• Inter font implemented.
+• Sidenav Icons and logo complete.
+• Sidenav icon and text size.
+• Sidenav icon max size constrained to 40px.
+• Popover component added for collapsed side-nav icons.
+• Sidenav combined icon classes to function.
+• Formatting.",4.5
+"Mar 03","web-console","• Merge pull request #493 from blocklessnetwork/snyk-fix-b90b0c329b7e719a892705901e8ed64e.",1
+"Feb 26","run-dashboard","• SetSubmitted false if there is no captchaToken.
+• Pull.",0.25
+"Feb 24","run-dashboard","• Update quizData.ts.",1
+"Feb 22","bless-auth","• Dark light mode.
+• Enter otp and goodbye components refactored.
+• Removed unused.",0.5
+"Feb 19","run-dashboard","• Merge pull request #55 from blocklessnetwork/achievement-quiz.",1
+"Feb 18","run-dashboard","• Removed logs.
+• Log.
+• Merged main.
+• Changed  isPassed to isAchievementQuizCompleted.",1.5
+"Feb 18","extension-aux","• Merge pull request #4 from blocklessnetwork/feature/include-quiz-passed-flag.
+• Changed getUserAchievementQuiz to use the User model.
+• Modified the getUserAchievemntQuiz method to only  return isAchievementQuizCompleted.
+• Changed getUserAchievementQuiz to use the User model. (#5).",4.5
+"Feb 18","bless-auth","• Formatting.
+• Removed unused.
+• Title.",0.5
+"Feb 17","extension-aux","• Removed chalk.
+• Updated quiz data.
+• Feature/quiz verification (#1).",0.25
+"Feb 17","run-dashboard","• Fixed theme on modal.
+• Fixed checkbox.
+• Merge pull request #54 from blocklessnetwork/achievement-quiz.",9.5
+"Feb 16","extension-aux","• Added server side data validation and recaptcha.",1
+"Feb 16","run-dashboard","• Recaptcha token.
+• Ready for review.
+• Merge pull request #52 from blocklessnetwork/achievement-quiz.
+• Changes per butain.
+• Merge pull request #53 from blocklessnetwork/achievement-quiz.",0.75
+"Feb 15","run-dashboard","• Connected to aux server.
+• Formatting.
+• Formatting.",1.25
+"Feb 15","extension-aux","• Updated data model and post function.
+• Merged main.
+• Specified users collection.
+• Formatting.
+• Removed build folder.
+• Removed unused.
+• Corrected file name mispelling.",1

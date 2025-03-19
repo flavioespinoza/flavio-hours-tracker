@@ -38,7 +38,7 @@ Estimates your hours worked over the last 40 days by pulling your commits from y
 
 
    **Option 1**
-   
+
    Run the script with yarn.
    ```bash
    yarn calc
@@ -53,3 +53,11 @@ Estimates your hours worked over the last 40 days by pulling your commits from y
 
 5. **View the Output**  
    The final formatted CSV file will be saved in the same directory with a name like `flavio-hours-<year>-<last_month>-<this_month>.csv`.
+
+## Todo
+- Make the variables `<year>-<last_month>-<this_month>` for the naming of the file optional and the route to the Users of discretion.
+- Allow the user to change the name Flavio to a variable on the CSV file.
+- Add option to read for multiple directories.
+
+
+

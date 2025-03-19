@@ -1,4 +1,4 @@
-## flavio-hours
+## flavio-hours-tracker
 
 Calculator hours by pulling your commits from your local get a project folder for the last 30 days.
 
@@ -8,7 +8,7 @@ Calculator hours by pulling your commits from your local get a project folder fo
    Open your terminal and run the following command to clone the repository:
    ```bash
    git clone <repository-url>
-   cd flavio-hours-old
+   cd flavio-hours-tracker
    ```
 
 2. **Install Dependencies**  

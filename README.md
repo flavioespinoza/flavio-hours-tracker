@@ -1,6 +1,6 @@
 ## flavio-hours-tracker
 
-Estimates your hours worked over the last 40 days by pulling your commits from your local github projects folder.
+Estimates your hours worked over the last 40 days by pulling your commits from your local GitHub projects folder.
 
 ### Steps to Use
 
@@ -18,10 +18,27 @@ Estimates your hours worked over the last 40 days by pulling your commits from y
    ```
 
 3. **Run the Script**  
-   Execute the `run-all.sh` script with `yarn calc` to generate and process the CSV file:
-   ```bash`
-   yarn calc
+   Execute the `get-flavio-hours.sh` script to generate and process the CSV file. By default, it processes repositories in the `~/bless` directory. You can override this by setting the `BASE_DIR` environment variable:
+   ```bash
+   BASE_DIR=<your_directory> ./get-flavio-hours.sh
    ```
 
-4. **View the Output**  
-   The final formatted CSV file will be saved in the same directory with a name like `flavio-hours-<year>-<last_month>-<this_month>_calc.csv`.
+4. **Update Your `.zshrc` File**  
+   To make the `BASE_DIR` environment variable persistent, you can add it to your `.zshrc` file:
+   - Open your `.zshrc` file in VS Code:
+     ```bash
+     code ~/.zshrc
+     ```
+   - Add the following line to set the `BASE_DIR`:
+     ```bash
+     export BASE_DIR=<your_directory>
+     ```
+   - Save the file and close VS Code.
+
+   After updating, make sure to source the `.zshrc` file to apply the changes:
+   ```bash
+   source ~/.zshrc
+   ```
+
+5. **View the Output**  
+   The final formatted CSV file will be saved in the same directory with a name like `flavio-hours-<year>-<last_month>-<this_month>.csv`.

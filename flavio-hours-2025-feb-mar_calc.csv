@@ -1,4 +1,5 @@
 Date,Repo,Tasks,Hours
+"Mar 17","bless-ui","• First commit.",1
 "Mar 16","bless-ui","• On card: git-log-y.
 • Index on card: 889886f ## docs(`card.md`): enhance documentation for `CardSection` component.
 • Untracked files on card: 889886f ## docs(`card.md`): enhance documentation for `CardSection` component.
@@ -116,3 +117,21 @@ Date,Repo,Tasks,Hours
 • Removed build folder.
 • Removed unused.
 • Corrected file name mispelling.",1
+"Feb 10","run-dashboard","• Chnges per Butain.
+• Merge pull request #47 from blocklessnetwork/feature/form-achievement.
+• Vercel error fix.
+• Merge pull request #48 from blocklessnetwork/feature/form-achievement.
+• Merge pull request #49 from blocklessnetwork/feature/form-achievement.
+• Merge pull request #50 from blocklessnetwork/feature/form-achievement.",1.25
+"Feb 09","run-dashboard","• Merge pull request #44 from blocklessnetwork/feature/form-achievement.
+• HandleSubmit.
+• Merge pull request #46 from blocklessnetwork/feature/form-achievement.",3.5
+"Feb 09","extension-aux","• Updated quiz model.
+• Removed question.
+• Deleted unused.",0.25
+"Feb 07","run-dashboard","• Ready for review.
+• Removed unused.
+• Reverted ts config.",0.25
+"Feb 06","run-dashboard","• Fix vercel error.
+• Updated failed message.
+• Recapcha.",15

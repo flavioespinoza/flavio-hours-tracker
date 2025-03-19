@@ -45,8 +45,11 @@ process_repo() {
     fi
 }
 
-# Iterate through all directories in ~/bless
-for dir in ~/bless/*/; do
+# Set the base directory for repositories, defaulting to "bless"
+BASE_DIR="${BASE_DIR:-bless}"
+
+# Iterate through all directories in the base directory
+for dir in ~/"$BASE_DIR"/*/; do
     if [ -d "$dir/.git" ]; then
         process_repo "$dir"
     fi

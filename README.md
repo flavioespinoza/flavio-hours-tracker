@@ -1,6 +1,6 @@
 ## flavio-hours-tracker
 
-Calculator hours by pulling your commits from your local get a project folder for the last 30 days.
+Estimates your hours worked over the last 40 days by pulling your commits from your local github projects folder.
 
 ### Steps to Use
 
